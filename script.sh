@@ -25,18 +25,23 @@ case "$1" in
 5) echo "python nc/get_interfaces_netconf.py"
    python nc/get_interfaces_netconf.py
    ;;
-
 # look at xml and structure of nc calls
-6) echo "python ydk/get_interfaces_ydk.py"
+
+6) echo "python get_ietf_interfaces_schema.py"
+   python get_ietf_interfaces_schema.py
+   ;;
+# look at the YANG
+
+7) echo "python ydk/get_interfaces_ydk.py"
    python ydk/get_interfaces_ydk.py
    ;;
 
 #look over code, simpler, more pythonic, proggrammer interface to network devices
-7) echo "python ydk/create_loopback_ydk.py"
+8) echo "python ydk/create_loopback_ydk.py"
    python ydk/create_loopback_ydk.py
    ;;
 
-8) echo "python ydk/delete_loopback_ydk.py"
+9) echo "python ydk/delete_loopback_ydk.py"
    python ydk/delete_loopback_ydk.py
    ;;
 
