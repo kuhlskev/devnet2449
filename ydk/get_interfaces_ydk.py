@@ -35,6 +35,9 @@ q_i = intf.InterfacesState()
 # get stuff
 intfs = crud.read(provider, q_i)
 
+int_info=[(i.name, i.statistics.out_pkts, int(i.speed)/1000000, i.oper_status) for i in intfs.interface]
+for thing in int_info: print(str(thing))
+
 # close the provider
 provider.close()
 
