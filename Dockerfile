@@ -38,3 +38,6 @@ WORKDIR /home/docker
 
 # Notes, sed cmd is to comment out lines 86-89 until bug fix in
 # /usr/lib/python2.7/site-packages/ydk/services/meta_service.py 
+
+# to run use cmd
+# docker run -it -p58888:58888 --rm -v$(pwd):/home/docker/ kuhlskev/ansible_ydk_jupyter
