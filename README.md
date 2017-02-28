@@ -8,8 +8,8 @@ Docker 1.13.1
 Vagrant 1.8.7 (be aware of this issue)
 cdrtools (in particular mkisofs)
 a build environment (e.g. compiler, make, ...), suggest to use MacPorts or Brew if running on a Mac
-Clone the iso-xrv-x64-vbox repository from GitHub 
-IOS XE image from Cisco.com (e.g. here, then go to IOS XE Software and download the Denali-16.3.2 .iso file in the Latest tree branch, ~350MB in size)
+Clone the https://github.com/ios-xr/iosxrv-x64-vbox repository from GitHub 
+IOS XE image from Cisco.com (https://software.cisco.com/download/type.html?mdfid=284364978&catid=null, then go to IOS XE Software and download the Denali-16.3.2 .iso file in the Latest tree branch, ~350MB in size)
 
 Go to the directory where you cloned the iso-xrv-x64-vbox repository. 
 Create the Vagrant box image build by running the following command:
