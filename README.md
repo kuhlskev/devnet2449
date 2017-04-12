@@ -1,5 +1,5 @@
-# devnet1002
-This is a repo to accompany the DevNet 1002 Session for Cisco Live
+# devnet2449
+This is a repo to accompany the DevNet 2449 Session for Cisco Live
 
 To Follow along the exercises on your own you will need:
 
